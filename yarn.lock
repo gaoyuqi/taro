@@ -4090,16 +4090,6 @@ css-what@^3.2.1:
   resolved "https://registry.npm.taobao.org/css-what/download/css-what-3.2.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcss-what%2Fdownload%2Fcss-what-3.2.1.tgz#f4a8f12421064621b456755e34a03a2c22df5da1"
   integrity sha1-9KjxJCEGRiG0VnVeNKA6LCLfXaE=
 
-css@^2.2.3:
-  version "2.2.4"
-  resolved "https://registry.npm.taobao.org/css/download/css-2.2.4.tgz#c646755c73971f2bba6a601e2cf2fd71b1298929"
-  integrity sha1-xkZ1XHOXHyu6amAeLPL9cbEpiSk=
-  dependencies:
-    inherits "^2.0.3"
-    source-map "^0.6.1"
-    source-map-resolve "^0.5.2"
-    urix "^0.1.0"
-
 cssesc@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/cssesc/download/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
@@ -4567,7 +4557,7 @@ diff@^2.1.2:
   resolved "https://registry.npm.taobao.org/diff/download/diff-2.2.3.tgz?cache=0&sync_timestamp=1578890959231&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdiff%2Fdownload%2Fdiff-2.2.3.tgz#60eafd0d28ee906e4e8ff0a52c1229521033bf99"
   integrity sha1-YOr9DSjukG5Oj/ClLBIpUhAzv5k=
 
-diff@^3.2.0, diff@^3.3.0, diff@^3.5.0:
+diff@^3.3.0, diff@^3.5.0:
   version "3.5.0"
   resolved "https://registry.npm.taobao.org/diff/download/diff-3.5.0.tgz?cache=0&sync_timestamp=1578890959231&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdiff%2Fdownload%2Fdiff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
   integrity sha1-gAwN0eCov7yVg1wgKtIg/jF+WhI=
@@ -7683,41 +7673,10 @@ isurl@^1.0.0-alpha5:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
 
-jest-diff@^22.4.3:
-  version "22.4.3"
-  resolved "https://registry.npm.taobao.org/jest-diff/download/jest-diff-22.4.3.tgz#e18cc3feff0aeef159d02310f2686d4065378030"
-  integrity sha1-4YzD/v8K7vFZ0CMQ8mhtQGU3gDA=
-  dependencies:
-    chalk "^2.0.1"
-    diff "^3.2.0"
-    jest-get-type "^22.4.3"
-    pretty-format "^22.4.3"
-
-jest-dom@^1.3.1:
-  version "1.12.1"
-  resolved "https://registry.npm.taobao.org/jest-dom/download/jest-dom-1.12.1.tgz#4880c91e39e9c737188b5c952740df8912635248"
-  integrity sha1-SIDJHjnpxzcYi1yVJ0DfiRJjUkg=
-  dependencies:
-    chalk "^2.4.1"
-    css "^2.2.3"
-    jest-diff "^22.4.3"
-    jest-matcher-utils "^22.4.3"
-    pretty-format "^23.0.1"
-    redent "^2.0.0"
-
-jest-get-type@^22.4.3:
-  version "22.4.3"
-  resolved "https://registry.npm.taobao.org/jest-get-type/download/jest-get-type-22.4.3.tgz#e3a8504d8479342dd4420236b322869f18900ce4"
-  integrity sha1-46hQTYR5NC3UQgI2syKGnxiQDOQ=
-
-jest-matcher-utils@^22.4.3:
-  version "22.4.3"
-  resolved "https://registry.npm.taobao.org/jest-matcher-utils/download/jest-matcher-utils-22.4.3.tgz#4632fe428ebc73ebc194d3c7b65d37b161f710ff"
-  integrity sha1-RjL+Qo68c+vBlNPHtl03sWH3EP8=
-  dependencies:
-    chalk "^2.0.1"
-    jest-get-type "^22.4.3"
-    pretty-format "^22.4.3"
+jest-dom@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/jest-dom/-/jest-dom-4.0.0.tgz#94eba3cbc6576e7bd6821867c92d176de28920eb"
+  integrity sha512-gBxYZlZB1Jgvf2gP2pRfjjUWF8woGBHj/g5rAQgFPB/0K2atGuhVcPO+BItyjWeKg9zM+dokgcMOH01vrWVMFA==
 
 jpegtran-bin@^4.0.0:
   version "4.0.0"
@@ -10590,22 +10549,6 @@ pretty-error@^2.0.2:
     renderkid "^2.0.1"
     utila "~0.4"
 
-pretty-format@^22.4.3:
-  version "22.4.3"
-  resolved "https://registry.npm.taobao.org/pretty-format/download/pretty-format-22.4.3.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpretty-format%2Fdownload%2Fpretty-format-22.4.3.tgz#f873d780839a9c02e9664c8a082e9ee79eaac16f"
-  integrity sha1-+HPXgIOanALpZkyKCC6e556qwW8=
-  dependencies:
-    ansi-regex "^3.0.0"
-    ansi-styles "^3.2.0"
-
-pretty-format@^23.0.1:
-  version "23.6.0"
-  resolved "https://registry.npm.taobao.org/pretty-format/download/pretty-format-23.6.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpretty-format%2Fdownload%2Fpretty-format-23.6.0.tgz#5eaac8eeb6b33b987b7fe6097ea6a8a146ab5760"
-  integrity sha1-XqrI7razO5h7f+YJfqaooUarV2A=
-  dependencies:
-    ansi-regex "^3.0.0"
-    ansi-styles "^3.2.0"
-
 pretty-ms@^3.1.0:
   version "3.2.0"
   resolved "https://registry.npm.taobao.org/pretty-ms/download/pretty-ms-3.2.0.tgz#87a8feaf27fc18414d75441467d411d6e6098a25"
@@ -12050,7 +11993,7 @@ source-list-map@^2.0.0:
   resolved "https://registry.npm.taobao.org/source-list-map/download/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha1-OZO9hzv8SEecyp6jpUeDXHwVSzQ=
 
-source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
+source-map-resolve@^0.5.0:
   version "0.5.3"
   resolved "https://registry.npm.taobao.org/source-map-resolve/download/source-map-resolve-0.5.3.tgz#190866bece7553e1f8f267a2ee82c606b5509a1a"
   integrity sha1-GQhmvs51U+H48mei7oLGBrVQmho=
